@@ -45,7 +45,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "lol") || (event.body.toLowerCase() == "lol bot")) {
-     return api.sendMessage("Khud ko Kya LeGend Samjhte Ho 😂", threadID);
+     return api.sendMessage("Khud ko Kya LeGend Samjhte Ho 🤣", threadID);
    };
 
    if ((event.body.toLowerCase() == "morning") || (event.body.toLowerCase() == "good morning")) {
